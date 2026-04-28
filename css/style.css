@@ -1,0 +1,49 @@
+/* General body style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Hero section for index page */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                url('../images/members.jpg') center/cover no-repeat;
+    min-height: 75vh;
+    padding: 50px 0;
+}
+
+/* Page banner for sub-pages */
+.page-banner {
+    background: linear-gradient(rgba(13, 110, 253, 0.75), rgba(25, 135, 84, 0.75));
+    min-height: 40vh;
+    padding: 50px 0;
+}
+
+/* Custom card styling */
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Card hover effect */
+.custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* Footer styling */
+footer {
+    font-size: 15px;
+}
+
+/* Custom heading spacing */
+h1, h2, h3, h4 {
+    margin-bottom: 15px;
+}
